@@ -1,0 +1,151 @@
+html {
+
+height: 100%;
+width: 100%;
+
+   background: url("gradient2.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+header {
+
+
+
+}
+
+.storbild{
+
+
+object-fit:cover;
+
+}
+
+
+img{
+
+	width:904px;
+	transition: all 0.5s;
+	padding-bottom:2px;
+}
+
+img {
+
+	width:450px;
+	margin: 2px;
+	transition: all 0.5s;
+}
+
+img:hover {
+
+	transform:scale(1.2);
+}
+
+img:hover {
+
+	transform:scale(1.1);
+}
+
+
+
+.navbar {
+
+display: block;
+padding: 5px;
+
+
+
+}
+
+img {
+
+  object-fit:cover;
+  width: 100%;
+  border-radius: 5px;
+  transition: all 0,5s linear;
+
+} 
+
+img:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.container {
+
+background-color: black;
+object-fit: cover
+
+
+}
+
+#logo{
+
+	width:20px;
+	height: 20px;
+
+
+}
+
+
+.container_2{
+
+
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+  	grid-gap: 20px;
+  
+ }
+
+
+.grid{
+
+
+	cursor: pointer;
+	
+
+}
+
+.grid:hover {
+
+	cursor:pointer;
+
+}
+
+.one{
+
+
+}
+
+p {
+	
+	font-family:arial;
+	color:white;
+	text-align: center;
+
+}
+
+h4{
+
+	color: white;
+	font-family:arial;
+}
+
+h1{
+	text-align: center;
+	color:white;
+	font-family: arial;
+}
+
+.storbild{
+
+	display: grid;
+	grid-template-columns: 4fr;
+
+}
